@@ -456,7 +456,7 @@ header {
 }
 
 header h1 {
-  width: 540px;
+  width: 100%;
   margin-top: 0;
   margin-bottom: 0.2em;
   font-size: 72px;
@@ -536,6 +536,23 @@ header a.button {
   right: 0;
   background: transparent url(../images/github-button.png) 0 0 no-repeat;
 }
+
+a.personalwebsite-button {
+width: 169px;
+  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+  font-size: 23px;
+}
+
+a.linkedin-button {
+display: block;
+  width: 138px;
+  height: 42px;
+  padding-left: 64px;
+  margin-bottom: 20px;
+  font-size: 21px;
+  background: transparent url(../images/linkedin-profile.png) 0 0 no-repeat;
+}
+
 aside a.button {
   display: block;
   width: 138px;
@@ -627,6 +644,13 @@ form {
   margin-left: -0.9em;
   color: #9ddcff;
   content: "/";
+}
+
+#main-content header a.button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: transparent url(../images/github-button.png) 0 0 no-repeat;
 }
 
 #main-content h2 {
@@ -846,6 +870,7 @@ footer a:hover {
     display: inline;
     font-size: 13px;
   }
+
   #main-content,
   aside#sidebar {
     float: none;
